@@ -21,6 +21,31 @@
 .App-link {
   color: #61dafb;
 }
+#card {
+  color: #282c34;
+  width: 275;
+}
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+.title {
+  font-size: 14;
+}
+.pos {
+  margin-bottom: 12;
+}
+
+.loginInput {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+
+  /* flex-grow: inherit */
+}
 
 @keyframes App-logo-spin {
   from {
@@ -30,3 +55,5 @@
     transform: rotate(360deg);
   }
 }
+
+
